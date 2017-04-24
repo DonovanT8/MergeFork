@@ -19,7 +19,7 @@ import java.util.Comparator;
 public class MergeFork extends javax.swing.JFrame {
     
     private final String[] contributorArray = new String[] {
-        "Ken Weber",
+        "Ken Weber", "Donovan Taitt"
     };
     
     /**
@@ -63,7 +63,7 @@ public class MergeFork extends javax.swing.JFrame {
         titleLabel.setText("MergeFork Project");
 
         contributorLabel.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        contributorLabel.setText("Contributor List");
+        contributorLabel.setText("Contributer List");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
